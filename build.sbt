@@ -4,6 +4,8 @@ enablePlugins(DebianPlugin)
 enablePlugins(JDebPackaging)
 enablePlugins(SystemVPlugin)
   
+dockerExposedPorts := Seq(8080)
+
 name := "TODO tracker"
 scalaVersion := "2.12.2"
 version := "0.1.0"
