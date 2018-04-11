@@ -3,6 +3,8 @@ enablePlugins(LinuxPlugin)
 enablePlugins(DebianPlugin)
 enablePlugins(JDebPackaging)
 enablePlugins(SystemVPlugin)
+
+enablePlugins(DockerPlugin)
   
 dockerExposedPorts := Seq(8080)
 
